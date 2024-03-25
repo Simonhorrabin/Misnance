@@ -19,6 +19,8 @@ header{
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 2;
+    padding: 15px 0;
 }
 
 .nav {
@@ -27,6 +29,7 @@ header{
     justify-content: space-between;
     flex-wrap: wrap;
     color: rgb(102, 170, 170);
+    
     
 }
 
@@ -45,8 +48,25 @@ header{
     font-size: 16px;
 }
 
+.btn {
+    font-size: 16px;
+    font-weight: 600;
+    background: grey;
+    padding: 10px 25px;
+    border-radius: 20px;
+    background: linear-gradient(#4B79A1 50%, #283e51 100%);
+    
+}
+
+.btn:hover {
+    background: transparent;
+
+}
+
 .hero {
     height: 100vh;
+    position: relative;
+
 }
 
 h3{
