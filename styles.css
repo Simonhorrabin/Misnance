@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #000000;
+    --primary-color: #1f1e1e;
     --primary-color-light: #1f2125;
     --primary-color-extra-light: #35373b;
-    --secondary-color: rgb(46, 89, 88);
+    --secondary-color: rgb(17, 27, 27);
     --secondary-color-dark: rgb(21, 34, 42);
     --text-light: #d1d5db;
     --white: #fff;
@@ -68,7 +68,7 @@ a {
 }
 
 body {
-    background: url(/assets/Screenshot\ 2023-12-23\ 204125.png);
+    background: rgb(0, 0, 0);
 }
 
 nav {
