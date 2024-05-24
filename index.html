@@ -2,54 +2,222 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css">
+    <title>MisNance</title>
 </head>
-
 <body>
-    <header>
-        <div class="container">
-            <div class="nav">
-                <div class="logo">
-                   <!----- <a href="#">
-                        <img src="images/brick.png" alt="logo for site">
-                    </a> -->
-            </div>
-             <div class="menu">
-               <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Price</a>
-                </li>
-                <li>
-                    <a href="#">Testimonials</a>
-                </li>
-                <li>
-                    <a href="#" class="btn">Get in Touch</a>
-                </li>
-               </ul>  
-             </div>   
+    <nav>
+        <div class="nav__logo">
+            <a href="#"><img src="assets/logo1.png.png" alt="logo"></a>
+        </div>
+        <ul class="nav__links">
+            <li class="link"><a href="#">Home</a></li>
+            <li class="link"><a href="#">Program</a></li>
+            <li class="link"><a href="#">Service</a></li>
+            <li class="link"><a href="#">About</a></li>
+            <li class="link"><a href="#">Community</a></li>
+        </ul>
+        <button class="btn">Join Now</button>
+    </nav>
+
+    <header class="section__container header__container">
+        <div class="header__content">
+            <span class="bg__blur"></span>
+            <span class="bg__blur header__blur"></span>
+            <h4></h4>
+            <h1><span>MAKE</span> YOUR BODY SHAPE</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, placeat! Voluptatum, hic reiciendis praesentium molestias totam doloremque ut labore 
+                sed quae porro, minus architecto consequuntur, aliquid et 
+                quas aliquam repudiandae.
+            </p>
+            <button class="btn">Get Started</button>
+        </div>
+        <div class="header__image">
+            <img src="assets/Me.png" alt="header">
         </div>
     </header>
-    <main>
-        <div class="hero">
-            <div class="container">
-                <div class="box">
-                    <h3>Body Fitness</h3>
-                    <h1>Let's get it</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fugiat sint hic assumenda nam non similique, voluptatibus illum voluptates at laudantium, neque eos culpa corporis labore enim blanditiis, consectetur illo?</p>
-                    <div class="btn-wrapper">
-                        <a href="#" class="btn">Contact Me</a>
-                    </div>
+
+    <section class="section__container explore__container">
+        <div class="explore__header">
+            <h2 class="section__header">Look at our program</h2>
+            <div class="explore__nav">
+                <span><i class="ri-arrow-left-line"></i></span>
+                <span><i class="ri-arrow-right-line"></i></span>
+            </div>
+        </div>
+        <div class="explore__grid">
+            <div class="explore__card">
+                <span><i class="ri-boxing-fill"></i></span>
+                <h4>Strength</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Consectetur nulla repellat nisi, asperiores beatae reprehenderit impedit ratione obcaecati 
+                    cupiditate illo praesentium dicta blanditiis necessitatibus adipisci culpa reiciendis quisquam non. Nulla.
+                </p>
+                <a href="#">Join now</a>
+            </div>
+            <div class="explore__card">
+                <span><i class="ri-boxing-fill"></i></span>
+                <h4>Weight Gain</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Consectetur nulla repellat nisi, asperiores beatae reprehenderit impedit ratione obcaecati 
+                    cupiditate illo praesentium dicta blanditiis necessitatibus adipisci culpa reiciendis quisquam non. Nulla.
+                </p>
+                <a href="#">Join now</a>
+            </div>
+            <div class="explore__card">
+                <span><i class="ri-boxing-fill"></i></span>
+                <h4>Cardio</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Consectetur nulla repellat nisi, asperiores beatae reprehenderit impedit ratione obcaecati 
+                    cupiditate illo praesentium dicta blanditiis necessitatibus adipisci culpa reiciendis quisquam non. Nulla.
+                </p>
+                <a href="#">Join now</a>
+            </div>
+            <div class="explore__card">
+                <span><i class="ri-boxing-fill"></i></span>
+                <h4>Fat Loss</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Consectetur nulla repellat nisi, asperiores beatae reprehenderit impedit ratione obcaecati 
+                    cupiditate illo praesentium dicta blanditiis necessitatibus adipisci culpa reiciendis quisquam non. Nulla.
+                </p>
+                <a href="#">Join now<i class="ri-arrow-line"></i></a>
+            </div>
+        </div>
+    </section> 
+
+    <section class="section__container class__container">
+        <div class="class__image">
+            <span class="bg_blur"></span>
+            <img src="/assets/ny.png.png" alt="class" class="class__img-1">
+            <img src="/assets/simon.png.png" alt="class" class="class__img-2">
+        </div>
+        <div class="class__content">
+            <h2 class="section__header">The Class You Will Get Here</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto saepe 
+                rem aperiam nobis nam, impedit molestiae quae, suscipit i
+                psa illum magnam blanditiis incidunt accusantium maiores. Nesciunt, officiis quo? Quibusdam, cumque.</p>
+            <button class="btn">Book a Session</button>    
+        </div>
+    </section>
+
+    <section class="section__container join__container">
+        <h2 class="section__header">Why me?</h2>
+        <p class="section__subheader">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia 
+            eveniet repellat eaque magni voluptatibus soluta, 
+            consequuntur perferendis, illo ex totam inventore? Autem fuga animi ipsa u
+            nde officiis quibusdam id veritatis.
+        </p>
+        <div class="join__image">
+            <img src="assets/join.png" alt="Join">
+            <div class="join__grid">
+                <div class="join__card">
+                    <span><i class="ri-user-star-fill"></span>
+                    <div class="join__card__content">
+                        <h4>Personal Trainer</h4>
+                        <p>Unlock your full potential with us</p>
+                    </div>    
+                </div>
+            </div>
+            <div class="join__grid">
+                <div class="join__card">
+                    <span><i class="ri-user-star-fill"></span>
+                    <div class="join__card__content">
+                        <h4>Good Vibes</h4>
+                        <p>Unlock your full potential with us</p>
+                    </div>    
+                </div>
+            </div>
+            <div class="join__grid">
+                <div class="join__card">
+                    <span><i class="ri-user-star-fill"></span>
+                    <div class="join__card__content">
+                        <h4>Promo Class</h4>
+                        <p>Unlock your full potential with us</p>
+                    </div>    
                 </div>
             </div>
         </div>
-    </main>
-</body>    
+    </section>
+<!----Pricing container --->
+
+
+    <section class="section__container price__ container">
+        <h2 class="section__header">Our Pricing!</h2>
+        <p class="section__subheader">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos maiores incidunt rerum
+             ipsum eos. Ratione earum quo inventore illo tenetur eveniet
+             nihil a! Impedit itaque molestias molestiae voluptates ipsa dignissimos.
+        </p>
+        <div class="price__grid">
+            <div class="price__card">
+                <div class="price__card__content">
+                    <h4>3 Day Plan</h4>
+                    <h3>$19</h3>
+                    <p>
+                        <i class="ri-checkbox-cirlce-line"></i>
+                        Smart Workout plan
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-cirlce-line"></i>
+                        At home workouts
+                    </p>
+                </div>
+                <button class="btn price__btn">Join Now</button>
+            </div>
+            <div class="price__card">
+                <div class="price__card__content">
+                    <h4>5 Day plan</h4>
+                    <h3>$50</h3>
+                    <p>
+                        <i class="ri-checkbox-cirlce-line"></i>
+                        Smart Workout plan
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-cirlce-line"></i>
+                        Workout together at a gym near you
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-cirlce-line"></i>
+                        Meal Plan
+                    </p>
+                </div>
+                <button class="btn price__btn">Join Now</button>
+            </div>
+            <div class="price__card">
+                <div class="price__card__content">
+                    <h4>Simon Plan</h4>
+                    <h3>$50</h3>
+                    <p>
+                        <i class="ri-checkbox-cirlce-line"></i>
+                        Smart Workout plan
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-cirlce-line"></i>
+                        Workout together at a gym near you
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-cirlce-line"></i>
+                        Get shredded and lift buildings
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-cirlce-line"></i>
+                        Face punch opps
+                    </p>
+                </div>
+                <button class="btn price__btn">Join Now</button>
+            </div>
+        </div>
+
+    </section>
+
+
+</body>
 </html>
