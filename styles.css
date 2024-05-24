@@ -1,8 +1,8 @@
 :root {
     --primary-color: #1f1e1e;
     --primary-color-light: #1f2125;
-    --primary-color-extra-light: #35373b;
-    --secondary-color: rgb(17, 27, 27);
+    --primary-color-extra-light: #131822;
+    --secondary-color: rgb(30, 46, 46);
     --secondary-color-dark: rgb(21, 34, 42);
     --text-light: #d1d5db;
     --white: #fff;
@@ -416,7 +416,7 @@ nav {
 }
 
 .price__btn{
-    color: var(--secondary-color);
+    color: var(--secondary-color-dark);
     background-color: transparent;
     border: 2px solid var(--secondary-color);
 }
