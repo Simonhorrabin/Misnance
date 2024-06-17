@@ -171,6 +171,8 @@ nav {
 
 .header__image {
     position: relative;
+    border: 1px solid ;
+    border-radius: 10px;
 }
 
 .header__image::before {
