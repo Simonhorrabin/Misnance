@@ -68,7 +68,7 @@ a {
 }
 
 body {
-    background: rgb(0, 0, 0);
+    background: url(./assets/brick.png);
 }
 
 nav {
