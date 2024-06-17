@@ -418,7 +418,7 @@ nav {
 }
 
 .price__btn{
-    color: var(--secondary-color-dark);
+    color: rgb(72, 103, 114);
     background-color: transparent;
     border: 2px solid var(--secondary-color);
 }
